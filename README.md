@@ -1,4 +1,4 @@
-# vpComposeAPI
+# vpVerifyAPI
 Using https://github.com/mattrglobal/bbs-signatures
 
 # Usage
