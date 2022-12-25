@@ -6,7 +6,7 @@ Using https://github.com/mattrglobal/bbs-signatures
 Throw a POST request to the following URL
 
 
-//To create VP...
+//To verify VP...
 http://domain:3000/verify_vp
 
 
