@@ -7,19 +7,15 @@ Throw a POST request to the following URL
 
 
 //To create VP...
-http://domain:3000/create_vp
+http://domain:3000/verify_vp
 
 
 input---<br>
-signature: signature(proofValue) of VC<br>
+proof: proofValue of a VP<br>
 publicKey: Issuer's publicKey<br>
-messages: messages<br>
-revealed: indices of revealed message<br>
+messages: revealed messages<br>
 nonce: nonce
 
 output---<br>
-proof: proofValue of VP
-
-※This API does not strictly generate VPs.<br>
-※You get only the proofValue
+result: verification result for a VP
 
