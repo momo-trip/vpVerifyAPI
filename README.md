@@ -11,7 +11,7 @@ http://domain:3000/verify_vp
 
 
 input---<br>
-proof: proofValue of a VP<br>
+proof: proofValue of a submitted VP<br>
 publicKey: Issuer's publicKey<br>
 messages: revealed messages<br>
 nonce: nonce
